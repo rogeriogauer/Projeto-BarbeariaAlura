@@ -1,0 +1,263 @@
+body{
+   font-family: 'Roboto Slab', serif;
+   background-image: url("img/background.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 26%;
+}
+
+header{
+    background-color: #0052BD;
+    padding: 10px 0;
+}
+
+.caixa{
+   position: relative;
+   width: 940px;
+   margin: auto auto;   
+}
+
+nav{
+   position: absolute;
+   top: 121px;
+   right: 30px;
+}
+
+nav li{
+   display: inline;
+   margin: 0 0 0 25px;
+}
+
+nav a{
+   text-transform: uppercase;
+   color: #ffffff;
+   font-size: 21px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+nav a:hover{
+   color: #ebe990;
+   text-decoration: underline;
+}
+
+.banner{
+   width: 97.5%;
+   height: 460px; 
+   margin: 1.2% 1.3% 1% 1.3%;  
+}
+
+.sobre{
+   background: linear-gradient(180deg, #003171, #0052BD, #006DFC);
+   color: white;
+   width: 100%;  
+   padding: 40px 0 15px 0;    
+}
+
+h2{
+   text-align: center;   
+   font-size: 200%;
+   font-weight: bold;
+   margin: 0 0 1em 0;
+   clear: left;
+}
+
+.utensilios{
+   width: 85px;
+   float: left;
+   margin: 0 20px 20px 70px;
+   box-shadow: 5px 5px 10px 3px black;
+}
+
+.sobre p{
+   font-size: 125%; 
+   text-align: justify;
+   text-indent: 20px;  
+   line-height: 30px;   
+   display: block;
+   margin: 0 70px;   
+   margin-block-start: 20px;
+   margin-block-end: 20px; 
+}
+
+#missao{
+   font-size: 145%;
+   text-align: center;
+   font-style: italic; 
+}
+
+#missao b{
+   font-weight: bold;     
+   color: #FFC752;
+} 
+
+.beneficios{
+   background: linear-gradient(180deg, #806429, #E6B449, #FFC752);  
+   color: black;
+   width: 100%;
+   padding: 40px 0 15px 0;
+}
+
+h3{
+   text-align: center;
+   font-size: 180%;
+   font-weight: bold;
+   margin: 0 0 1em 0;
+}
+
+.beneficios ul{
+   display: inline-block;
+   vertical-align: top ;
+   width: 35%;
+   margin-right: 2%;
+   margin-left: 6%;  
+   margin-block-start: 30px;
+   margin-block-end: 30px; 
+}
+
+.itens{
+   font-style: italic;
+   font-size: 125%;
+   line-height: 35px;
+}
+
+.itens:before{
+   content: "★";
+}
+
+.itens:nth-child(1){
+   font-weight: bold;
+}
+   
+.atendimento{
+   width: 44%;
+   height: 50%;
+   margin: 30px 0 40px 50px;
+   opacity: 0.8;
+   box-shadow: 10px 10px 10px 3px black;
+}
+
+.demonstracao{
+   background: linear-gradient(180deg, #003171, #0052BD, #006DFC);
+   color: white;
+   width: 100%;   
+   padding: 40px 0;    
+}
+
+.localizacao{
+   background: linear-gradient(180deg, #806429, #E6B449, #FFC752);  
+   color: black;
+   width: 100%;   
+   padding: 40px 0;    
+}
+
+.demonstracao p, .localizacao p{
+   font-size: 125%; 
+   text-align: center;    
+}
+
+.demonstracao iframe, .localizacao iframe{
+   width: 60%;
+   height: 300px;
+   margin: 40px 205px 10px; 
+   opacity: 0.8; 
+   box-shadow: 10px 10px 10px 3px black;
+}
+
+.atendimento:hover, .demonstracao iframe:hover, .localizacao iframe:hover{
+   opacity: 0.9;
+   transition: 0.5s;   
+}
+
+footer{
+   background-color:  #006DFC ;   
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 30px;
+}
+
+.copyright{
+   color: #ffffff;
+   font-size: 10px;
+   margin-block-start: 0;   
+}
+
+/*Design responsivo para smartphones.*/
+@media screen and (max-width: 480px){
+   .caixa{
+      width: auto;
+      text-align: center;
+      margin: 0 auto 15px;
+   }
+
+   nav{
+      position: static;
+   }
+
+   .banner{
+      height: 250px;
+   }
+
+   h2{        
+      font-size: 150%;
+   }
+
+   .utensilios{
+      width: 34px;      
+      margin: 0 10px 10px 15px;
+   }  
+   
+   .sobre p{
+      font-size: 93%; 
+      text-indent: 5px;  
+      line-height: 22px;   
+      margin: 0 15px; 
+      margin-block-start: 15px;
+      margin-block-end: 15px;  
+   }
+
+   #missao{
+      font-size: 96%;
+      text-align: justify;
+   } 
+
+   .beneficios{
+      padding: 30px 0;   
+   }
+   
+   h3{
+      text-align: center;
+      font-size: 130%;
+      font-weight: bold;
+      margin: 0 0 1em 0;
+   }
+
+   .beneficios ul {
+      display: block;
+      width: 90%;
+      margin: 15px;
+  }
+
+   .itens {
+      font-size: 93%;
+      text-align: center;
+      line-height: 25px;
+      margin-block-start: 5px;
+      margin-block-end: 5px;
+   }
+
+   .atendimento{
+      width: 70%;
+      margin: 0 45px;
+   }
+
+   .demonstracao p, .localizacao p {
+      font-size: 93%;
+      text-align: center;
+      margin: 0 15px;
+   }
+
+   .demonstracao iframe, .localizacao iframe{
+      margin: 25px 0 0 0; 
+      width: 100%;
+   }   
+}
