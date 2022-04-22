@@ -10,7 +10,7 @@
 ## :page_with_curl: Descrição:
 Site de uma barbearia, contendo três páginas interativas.
 
-## Demonstração:
+## :mega: Demonstração:
 - Página "Home"
 
 <img src="img/vdohome.gif">
@@ -21,14 +21,15 @@ Site de uma barbearia, contendo três páginas interativas.
 - Página "Serviços"
 
 <img src="img/vdoservicos.gif">
-<br><br>
+<br>
 
 - Página "Contatos"
 
 <img src="img/vdocontatos.gif">
-<br><br>
+<br>
 
-## Objetivos:
-Projeto desenvolvido para exercitar e fixar conceitos, tais como: semântica, enconding, estrutura, alinhamento, tamanho, espaçamento, cor, background, css inline, link, identificador, imagem, lista, referência, divisão, posicionamento, borda, pseudo-classe, unicode, formulário, hierarquia no css, transição, escala, rotação, tabela, unidade, proporção, flutuação, fonte externa, incorporamento de mapa e video, gradiente, pseudo-elemento, seletor avançado, opacidade, sombra, responsividade, e outros.     
+## :dart: Objetivos:
+Projeto desenvolvido para exercitar e fixar conceitos, tais como: semântica, enconding, estrutura, alinhamento, tamanho, espaçamento, cor, background, css inline, link, identificador, imagem, lista, referência, divisão, posicionamento, borda, pseudo-classe, unicode, formulário, hierarquia no css, transição, escala, rotação, tabela, unidade, proporção, flutuação, fonte externa, incorporamento de mapa e video, gradiente, pseudo-elemento, seletor avançado, opacidade, sombra, responsividade, e outros.   
 
-## Desenvolvedor:
+## :glasses: Desenvolvedor:
+[<img src="https://avatars.githubusercontent.com/u/96431522?v=4" width=115><br>Rogério Gauer](https://github.com/rogeriogauer)
