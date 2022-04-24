@@ -8,6 +8,7 @@
 </p>
 
 ## :bookmark_tabs: Índice:
+
 - [Descrição](#pagewithcurl-descrição)
 
 - [Demonstração](#mega-demonstração)
@@ -17,6 +18,7 @@
 - [Tecnologias Utilizadas](#heavycheckmark-tecnologias-utilizadas)
 
 - [Desenvolvedor](#grinning-desenvolvedor)
+
 ## :page_with_curl: Descrição:
 Site de uma barbearia, contendo três páginas interativas.
 
